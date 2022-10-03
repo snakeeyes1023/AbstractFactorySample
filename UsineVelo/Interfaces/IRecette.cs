@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UsineVelo.Usines
+namespace Shape.Interfaces
 {
-    internal class UsineTrek
+    public interface IRecette
     {
+        void FabriquerRoue();
+        void FabriquerCadre();
     }
 }

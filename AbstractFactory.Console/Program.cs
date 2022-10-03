@@ -2,15 +2,20 @@
 using System;
 using Shape.Enums;
 using Shape.Interfaces;
+using UsineVelo.GenerateurUsines;
+using UsineVelo.Usines;
 
 class Program
 {
     static void Main(string []args)
     {
-        AbstractFactory shapeFactory = FactoryGenerator.getFactory(ShapeStyle.ROUNDED);
+        UsineAbstraite generateurUsine = GenerateurUsine.GetUsine(VeloMarque.DEVINCI);
 
-        IShape squareShape = shapeFactory.getShape(shapeType.SQUARE);
+        generateurUsine.AfficherInformationUsine();
+        IRecette doubleDevinci = generateurUsine.GetTypeVelo(VeloType.MONTAGNE);
 
-        squareShape.Draw();
+        Console.WriteLine();
+
+        doubleDevinci.FabriquerRoue();
     }
 }

@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AbstractFactory\Shape.csproj" />
+    <ProjectReference Include="..\UsineVelo\UsineVelo.csproj" />
   </ItemGroup>
 
 </Project>
