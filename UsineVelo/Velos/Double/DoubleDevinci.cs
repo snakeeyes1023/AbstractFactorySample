@@ -1,13 +1,12 @@
-﻿using Shape.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UsineVelo.Velos.Devinci
+namespace UsineVelo.Velos.Double
 {
-    public class DoubleDevinci : IRecette
+    public class DoubleDevinci : IDouble
     {
         public void FabriquerCadre()
         {

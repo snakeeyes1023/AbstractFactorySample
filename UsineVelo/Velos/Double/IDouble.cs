@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shape.Enums
+namespace UsineVelo.Velos.Double
 {
-    public enum VeloMarque
+    public interface IDouble
     {
-        TREK,
-        DEVINCI,
-        SANTACRUSE
+        void FabriquerRoue();
+        void FabriquerCadre();
     }
 }

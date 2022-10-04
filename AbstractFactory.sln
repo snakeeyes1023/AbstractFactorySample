@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shape", "AbstractFactory\Shape.csproj", "{0F374EC8-0102-4AB1-AFF5-E551A44A8C7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory.Console", "AbstractFactory.Console\AbstractFactory.Console.csproj", "{C25DC5D8-AE67-4119-BAFA-ECA6341F94DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory.Console", "AbstractFactory.Console\AbstractFactory.Console.csproj", "{C25DC5D8-AE67-4119-BAFA-ECA6341F94DB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsineVelo", "UsineVelo\UsineVelo.csproj", "{0097D91E-A1C9-4C65-B9C3-F616149812ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UsineVelo", "UsineVelo\UsineVelo.csproj", "{0097D91E-A1C9-4C65-B9C3-F616149812ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0F374EC8-0102-4AB1-AFF5-E551A44A8C7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0F374EC8-0102-4AB1-AFF5-E551A44A8C7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0F374EC8-0102-4AB1-AFF5-E551A44A8C7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0F374EC8-0102-4AB1-AFF5-E551A44A8C7A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C25DC5D8-AE67-4119-BAFA-ECA6341F94DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C25DC5D8-AE67-4119-BAFA-ECA6341F94DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C25DC5D8-AE67-4119-BAFA-ECA6341F94DB}.Release|Any CPU.ActiveCfg = Release|Any CPU

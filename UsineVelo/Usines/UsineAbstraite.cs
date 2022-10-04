@@ -1,19 +1,19 @@
-﻿using Shape.Enums;
-using Shape.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using UsineVelo.Velos.Double;
 
 namespace UsineVelo.Usines
 {
     public abstract class UsineAbstraite
     {
-        public string Nom { get; set; } = string.Empty;
-        public string Description { get; set; } = string.Empty;
+        public UsineAbstraite(string nom, string description)
+        {
+            Nom = nom;
+            Description = description;
+        }
 
-        public abstract IRecette GetTypeVelo(VeloType typeVelo);
+        protected string Nom;
+        protected string Description;
+
+        public abstract IDouble GetRecetteDoubleSupsension();
 
         public virtual void AfficherInformationUsine()
         {

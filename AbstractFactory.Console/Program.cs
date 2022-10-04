@@ -1,21 +1,20 @@
-﻿using Shape.Factories;
-using System;
-using Shape.Enums;
-using Shape.Interfaces;
+﻿using System;
 using UsineVelo.GenerateurUsines;
 using UsineVelo.Usines;
+using UsineVelo.Velos.Double;
 
 class Program
 {
     static void Main(string []args)
     {
-        UsineAbstraite generateurUsine = GenerateurUsine.GetUsine(VeloMarque.DEVINCI);
+        UsineAbstraite generateurUsine = GenerateurUsine.GetUsineTrek();
 
         generateurUsine.AfficherInformationUsine();
-        IRecette doubleDevinci = generateurUsine.GetTypeVelo(VeloType.MONTAGNE);
-
+     
         Console.WriteLine();
 
-        doubleDevinci.FabriquerRoue();
+        IDouble recetteDoubleSuspension = generateurUsine.GetRecetteDoubleSupsension();
+
+        recetteDoubleSuspension.FabriquerCadre();
     }
 }
