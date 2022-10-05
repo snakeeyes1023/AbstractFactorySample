@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string []args)
     {
-        UsineAbstraite generateurUsine = GenerateurUsine.GetUsineTrek();
+        UsineAbstraite generateurUsine = GenerateurUsine.GetUsineDevinci();
 
         generateurUsine.AfficherInformationUsine();
      
